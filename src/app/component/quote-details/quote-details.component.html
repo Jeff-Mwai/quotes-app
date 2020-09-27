@@ -1,0 +1,21 @@
+<div class="card-body card-body-cascade text-center">
+
+    <!-- Title -->
+    <h4 class="card-title"><strong>{{quote.name}}</strong></h4>
+    <!-- Subtitle -->
+    <h6 class="font-weight-bold indigo-text py-2">{{quote.author}}</h6>
+    <!-- Text -->
+    <p class="card-text">{{quote.quote}}.
+    </p>
+    <div class="row">
+        <div class="col-6">
+            <p> Upvote: {{quote.upvote}}</p>
+        </div>
+        <div class="col-6">
+            <p>Downvote: {{quote.downvote}}</p>
+        </div>
+    </div>
+    <p>Active For: {{quote.date | dateCount}} Days</p>
+
+
+</div>

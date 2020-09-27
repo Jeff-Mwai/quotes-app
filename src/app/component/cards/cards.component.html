@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-md-4">
+    <app-form (emitNewQuote)="addQuote($event)"></app-form>
+  </div>
+  <div class="col-md-8">
+    <div class="container-fluid p-5">
+
+      <div class="row">
+        <div class="col-md-6 mt-3" *ngFor="let quote of quotes; let i=index">
+          <div class="card card-cascade">
+
+
+            <app-quote-details [quote]="quote"></app-quote-details>
+            <!-- Card footer -->
+            <div class="card-footer text-muted text-center">
+              <div class="row">
+                <div class="col-md-4">
+                  <a class="mr-2" (click)="upvote(i)"><i class="fas fa-thumbs-up"></i></a>{{quote.upvote}}
+                </div>
+                <div class="col-md-4">
+                  <a class="mr-2" (click)="downvote(i)"><i class="fas fa-thumbs-down"></i></a>{{quote.downvote}}
+                </div>
+                <div class="col-md-4">
+                  <a class="mr-2" (click)="deleteVote(i)"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+</div>
