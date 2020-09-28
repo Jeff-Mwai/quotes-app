@@ -39,6 +39,6 @@ To view the page click on the link below
 
 ### License
 
-##[License] (https://jeff-mwai.github.io/quotes-app/LICENCE.md)
+## [License] (https://jeff-mwai.github.io/quotes-app/LICENCE.md)
 
 
