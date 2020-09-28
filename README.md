@@ -1,28 +1,44 @@
 # QuoteApp
 figma link: https://www.figma.com/file/s15O3k8cpj4AQHHwJjMKAE/Quotes?node-id=0%3A1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
-## Development server
+# Quotes For Life
+#### Quotes For Life, September 28th 2020
+#### By **Jeffrey Mwai**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+- Quotes For Life is an application that has several quotes in it. It enables users to add quotes,delete quotes, upvote the best or downvote others.
 
-## Code scaffolding
+## Behaviour Driven Development(BDD)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+| Input                        | Ouput                                                                                            |
+|--------------------------    |----------------------------------------------------------------------------------------------    |
+| A form is provided to input quote     | User submits quote which appends in a card                  |
+| User Clicks Delete           | The quote is purged from view             |
+| User clicks Upvote        |   upvote is incremented value by   1 on each click      |
+| User clicks Downvote     | downvote is decremented value by 1 on each click     |
 
-## Build
+## Setup/Installation requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Clone  or download and unzip the repository from github, [https://github.com/Jeff-Mwai/quotes-app](https://github.com/Jeff-Mwai/quotes-app.git).
+- If you have git Use this command `git clone *` to clone the project.
+- Run ng serve from your terminal
 
-## Running unit tests
+## Live Demo
+To view the page click on the link below
+* [https://github.com/Jeff-Mwai/quotes-app](*)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies Used
+- Angular CLI
 
-## Running end-to-end tests
+## Known Bugs
+- The application does not have any known bugs currently.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Support and Contact Details
+- For any comments,suggestions,feedback or inquiries, contact me via email: `jeffmwai3@gmail.com`
 
-## Further help
+### License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* LICENSED UNDER  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](licence)
+
+
