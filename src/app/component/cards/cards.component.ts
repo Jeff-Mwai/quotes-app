@@ -8,9 +8,9 @@ import { Quote } from 'src/app/quote';
 })
 export class CardsComponent implements OnInit {
   quotes = [
-    new Quote('Jeff', 'Bob Marley','Do nott worry about a thing, cause every little thing gonna be all right.', new Date(2020, 9, 2)),
-    new Quote('Francis Mbatia', 'Alexander Bell', 'Or life will enjoy you', new Date(2020, 9, 26)),
-    new Quote('Daisy Sawe', 'Kendrick Lamar', 'Everybody else is taken', new Date(2020, 9, 17)),
+    new Quote('Kennedy', 'Muhammad Ali', 'The fight is won or lost far away from witnesses - behind the lines, in the gym, and out there on the road, long before I dance under those lights', new Date(2020, 9, 2)),
+    new Quote('Francis', 'Alexander Bell', 'Your time is limited, so don nott waste it living someone elses life. Do not be trapped by dogma – which is living with the results of other peoples thinking', new Date(2020, 9, 26)),
+    new Quote('Jeff', 'Bob Marley','Do not worry about a thing, cause every little thing gonna be all right', new Date(2020, 9, 2)),
 
   ]
 num1: number;
