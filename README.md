@@ -39,6 +39,6 @@ To view the page click on the link below
 
 ### License
 
-* LICENSED UNDER  [![License: MIT]](licence)
+##[License] (https://jeff-mwai.github.io/quotes-app/LICENCE.md)
 
 
