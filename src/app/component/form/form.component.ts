@@ -20,10 +20,9 @@ export class FormComponent implements OnInit {
   ngOnInit(): void {
   }
   onSubmit() {
-    this.newQuote = new Quote(this.name, this.author, this.quote, this.quoteDescription, this.date)
+    this.newQuote = new Quote(this.name, this.author, this.quoteDescription, this.date)
     this.name = '';
     this.author = '';
-    this.quote = '';
     this.quoteDescription = '';
     this.emitNewQuote.emit(this.newQuote)
 

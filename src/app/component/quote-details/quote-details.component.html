@@ -1,12 +1,15 @@
 <div class="card-body card-body-cascade text-center">
 
     <!-- Title -->
-    <h4 class="card-title"><strong>{{quote.name}}</strong></h4>
+    <h4 class="card-title"><strong>{{quote.author}}</strong></h4>
     <!-- Subtitle -->
-    <h6 class="font-weight-bold indigo-text py-2">{{quote.author}}</h6>
+    <h6 class="font-weight-bold indigo-text py-2">{{quote.quote}}</h6>
     <!-- Text -->
-    <p class="card-text">{{quote.quote}}.
+    <p class="card-text"><em>{{quote.quoteDescription}}.</em>
     </p>
+     <p class="card-text">Posted by: {{quote.name}}.
+    </p>
+
     <div class="row">
         <div class="col-6">
             <p> Upvote: {{quote.upvote}}</p>

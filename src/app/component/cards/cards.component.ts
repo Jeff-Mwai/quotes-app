@@ -8,9 +8,9 @@ import { Quote } from 'src/app/quote';
 })
 export class CardsComponent implements OnInit {
   quotes = [
-    new Quote('king Jeffa', 'Kanye West', 'YOLO', 'You Only Live Once', new Date(2020, 9, 21)),
-    new Quote('Francis Mbatia', 'Alexander Bell', 'Enjoy Life', 'Or life will enjoy you', new Date(2020, 9, 26)),
-    new Quote('Daisy Sawe', 'Kendrick Lamar', 'Be yourself', 'Everybody else is taken', new Date(2020, 9, 17)),
+    new Quote('Jeff', 'Bob Marley','Do nott worry about a thing, cause every little thing gonna be all right.', new Date(2020, 9, 2)),
+    new Quote('Francis Mbatia', 'Alexander Bell', 'Or life will enjoy you', new Date(2020, 9, 26)),
+    new Quote('Daisy Sawe', 'Kendrick Lamar', 'Everybody else is taken', new Date(2020, 9, 17)),
 
   ]
 num1: number;
@@ -33,7 +33,7 @@ i: number;
   addQuote(newQoute) {
     this.quotes.push(newQoute);
   }
-  highlight() {
+ /*  highlight() {
     this.num1 = 0;
     this.num2 = 0;
     for(this.i=0; this.i<this.quotes.length; this.i++){
@@ -42,5 +42,5 @@ i: number;
     this.num1=this.num2;
     }return this.num1
     }
-  }
+  } */
 }
