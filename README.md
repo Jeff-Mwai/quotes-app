@@ -39,6 +39,6 @@ To view the page click on the link below
 
 ### License
 
-* LICENSED UNDER  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](licence)
+* LICENSED UNDER  [![License: MIT]](licence)
 
 
