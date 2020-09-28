@@ -1,4 +1,5 @@
 # QuoteApp
+figma link: https://www.figma.com/file/s15O3k8cpj4AQHHwJjMKAE/Quotes?node-id=0%3A1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
