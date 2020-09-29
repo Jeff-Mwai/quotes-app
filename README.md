@@ -22,7 +22,7 @@
 
 ## Live Demo
 To view the page click on the link below
-* [https://jeff-mwai.github.io/quotes-app/.](*)
+* [https://jeff-mwai.github.io/quotes-app/](*)
 
 ## Figma Link
 * [https://www.figma.com/file/s15O3k8cpj4AQHHwJjMKAE/Quotes?node-id=0%3A1](*)
