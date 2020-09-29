@@ -35,7 +35,7 @@ export class CardsComponent implements OnInit {
   addQuote(newQoute) {
     this.quotes.push(newQoute);
   }
- /*  getHighestUpVote() {
+  getHighestUpVote() {
     this.small = 0
     this.large = 0
     for (this.numCount = 0; this.numCount < this.quotes.length; this.numCount++) {
@@ -43,5 +43,5 @@ export class CardsComponent implements OnInit {
       if (this.large > this.small) { this.small = this.large }
     }
     return this.small
-  } */
+  }
 }
