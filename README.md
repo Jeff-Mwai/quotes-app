@@ -38,6 +38,6 @@ To view the page click on the link below
 
 ### License
 
-* [https://jeff-mwai.github.io/quotes-app/LICENCE.md] (*)
+* MIT (c) 2020 **Jeffrey Mwai** (*)
 
 
