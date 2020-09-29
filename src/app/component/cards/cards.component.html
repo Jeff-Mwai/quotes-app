@@ -9,7 +9,11 @@
         <div class="col-md-6 mt-3" *ngFor="let quote of quotes; let i=index">
           <div class="card card-cascade">
 
+            <h6 class="text-center" appHighlight *ngIf="getHighestUpVote()===quote.upvote && quote.upvote>0">
+              <strong>Quote with the highest vote</strong></h6>
 
+            <h6 class="text-center" *ngIf="getHighestUpVote()!==quote.upvote && quote.upvote===0">
+              <strong></strong></h6>
             <app-quote-details [quote]="quote"></app-quote-details>
             <!-- Card footer -->
             <div class="card-footer text-muted text-center">

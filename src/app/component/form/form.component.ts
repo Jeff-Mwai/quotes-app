@@ -20,6 +20,7 @@ export class FormComponent implements OnInit {
   ngOnInit(): void {
   }
   onSubmit() {
+    this.date = new Date(this.date);
     this.newQuote = new Quote(this.name, this.author, this.quoteDescription, this.date)
     this.name = '';
     this.author = '';

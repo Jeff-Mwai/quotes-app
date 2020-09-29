@@ -8,6 +8,7 @@ import { FormComponent } from './component/form/form.component';
 import { CardsComponent } from './component/cards/cards.component';
 import { QuoteDetailsComponent } from './component/quote-details/quote-details.component';
 import { DateCountPipe } from './date-count.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { DateCountPipe } from './date-count.pipe';
     CardsComponent,
     QuoteDetailsComponent,
     DateCountPipe,
+    HighlightDirective,
   
   ],
   imports: [

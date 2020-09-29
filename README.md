@@ -1,7 +1,3 @@
-# QuoteApp
-figma link: https://www.figma.com/file/s15O3k8cpj4AQHHwJjMKAE/Quotes?node-id=0%3A1
-
-
 # Quotes For Life
 #### Quotes For Life, September 28th 2020
 #### By **Jeffrey Mwai**
@@ -28,6 +24,9 @@ figma link: https://www.figma.com/file/s15O3k8cpj4AQHHwJjMKAE/Quotes?node-id=0%3
 To view the page click on the link below
 * [https://github.com/Jeff-Mwai/quotes-app](*)
 
+## Figma Link
+* [https://www.figma.com/file/s15O3k8cpj4AQHHwJjMKAE/Quotes?node-id=0%3A1](*)
+
 ## Technologies Used
 - Angular CLI
 
@@ -39,6 +38,6 @@ To view the page click on the link below
 
 ### License
 
-## [License] (https://jeff-mwai.github.io/quotes-app/LICENCE.md)
+* [https://jeff-mwai.github.io/quotes-app/LICENCE.md] (*)
 
 
