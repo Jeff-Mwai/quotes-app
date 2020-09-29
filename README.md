@@ -38,6 +38,6 @@ To view the page click on the link below
 
 ### License
 
-* MIT (c) 2020 **Jeffrey Mwai** (*)
+* [MIT] (c) 2020 **Jeffrey Mwai** 
 
 
