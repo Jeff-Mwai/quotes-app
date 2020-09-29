@@ -8,10 +8,10 @@ import { Quote } from 'src/app/quote';
 })
 export class CardsComponent implements OnInit {
   quotes = [
-    new Quote('Paul', 'Elon Musk', 'Its OK to have your eggs in one basket as long as you control what happens to that basket.', new Date('2019/8/4')),
-    new Quote('Jeff', 'Bob Marley', 'Do not worry about a thing, cause every little thing gonna be all right', new Date('2020/6/2')),
+    new Quote('Paul', 'Elon Musk', 'Its OK to have your eggs in one basket as long as you control what happens to that basket.', new Date('2020/8/4')),
+    new Quote('Jeff', 'Bob Marley', 'Do not worry about a thing, cause every little thing gonna be all right', new Date('2020/7/2')),
     new Quote('Kennedy', 'Muhammad Ali', 'The fight is won or lost far away from witnesses - behind the lines, in the gym, and out there on the road, long before I dance under those lights', new Date('2020/9/2')),
-    new Quote('Francis', 'Steve Jobs', 'Your time is limited, so don not waste it living someones life. Do not be trapped by dogma – which is living with the results of other peoples thinking', new Date('2020/1/26'))
+    new Quote('Francis', 'Steve Jobs', 'Your time is limited, so don not waste it living someones life. Do not be trapped by dogma – which is living with the results of other peoples thinking', new Date('2020/6/26'))
     
 
   ]
